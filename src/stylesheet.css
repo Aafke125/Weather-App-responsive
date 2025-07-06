@@ -1,6 +1,8 @@
 body {
   background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/643/original/Blue_sky_highest.jpg?1741506067');
   font-family: 'Murecho', sans-serif;
+  background-size: cover;
+  height: 100vh;
 }
 
 .weather-app {
