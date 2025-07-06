@@ -63,13 +63,14 @@ function getForecast(city) {
 }
 
 function displayForecast(response) {
+  // THE FIX IS ON THIS LINE:
   let forecastElement = document.querySelector("#forecast");
+  
   let forecastHTML = "";
 
   response.data.daily.forEach(function (day, index) {
-    // Show the next 5 days (index 1 to 5)
+    // This shows the next 5 days (day 1 through day 5 of the API response)
     if (index > 0 && index < 6) {
-      // Each day is a Bootstrap column
       forecastHTML += `
         <div class="col">
           <div class="forecast-day">
