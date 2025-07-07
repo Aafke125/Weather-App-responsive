@@ -3,14 +3,11 @@ body {
   font-family: 'Murecho', sans-serif;
 }
 
-/* This is now an INVISIBLE container for layout control */
 .weather-app {
   max-width: 650px;
   margin: 40px auto;
-  /* REMOVED background, padding, and border-radius */
 }
 
-/* Search form and other styles remain the same */
 .search-form-input {
   background-color: rgba(235, 241, 251, 0.2);
   border: none;
@@ -56,7 +53,7 @@ body {
   color: aliceblue;
   font-size: 25px;
   font-weight: 250;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .temperature {
@@ -64,11 +61,12 @@ body {
   font-size: 80px;
   font-weight: 200;
   margin-top: -10px;
+  letter-spacing: 2px;
 }
 
 .celsius {
   color: aliceblue;
-  font-weight: 200;
+  font-weight: 250;
   font-size: 30px;
   position: relative;
   top: -35px;
@@ -81,7 +79,7 @@ body {
 }
 
 .current-details {
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: 220;
   color: aliceblue;
   line-height: 1.5;
@@ -91,7 +89,6 @@ body {
   font-weight: 450;
 }
 
-/* This rule provides the VISIBLE box ONLY for the forecast */
 .forecast-container {
   background: rgba(0, 22, 56, 0.2);
   padding: 20px;
@@ -99,6 +96,7 @@ body {
 }
 
 .forecast-day {
+  letter-spacing: 2px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -14,7 +14,6 @@
 
 <body>
   <div class="container">
-    <!-- The .weather-app div is now an invisible structural container -->
     <div class="weather-app">
       <header>
         <form class="search-form" id="search-form">
@@ -24,7 +23,6 @@
           </div>
         </form>
       </header>
-
       <main>
         <div class="weather-info text-center mt-5">
           <h1 class="location" id="location"></h1>
@@ -35,8 +33,6 @@
           with a humidity of <strong class="strong" id="humidity"></strong><strong class="strong">%, </strong><br />
           and a wind speed of <strong class="strong" id="wind-speed"></strong><strong class="strong"> km/h</strong>
         </p>
-
-        <!-- Re-introducing the container for the visual box around the forecast -->
         <div class="forecast-container mt-4">
           <div class="row text-center row-cols-2 row-cols-md-5 g-3" id="forecast">
             <!-- Forecast data will be injected here -->
