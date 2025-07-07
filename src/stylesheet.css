@@ -62,12 +62,13 @@ body {
 .temperature {
   color: aliceblue;
   font-size: 80px;
-  font-weight: 175;
+  font-weight: 200;
   margin-top: -10px;
 }
 
 .celsius {
   color: aliceblue;
+  font-weight: 200;
   font-size: 30px;
   position: relative;
   top: -35px;
