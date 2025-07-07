@@ -1,14 +1,16 @@
 body {
   background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/643/original/Blue_sky_highest.jpg?1741506067');
   font-family: 'Murecho', sans-serif;
-  background-size: cover;
-  height: 100vh;
 }
 
+/* This is now an INVISIBLE container for layout control */
 .weather-app {
+  max-width: 650px;
   margin: 40px auto;
+  /* REMOVED background, padding, and border-radius */
 }
 
+/* Search form and other styles remain the same */
 .search-form-input {
   background-color: rgba(235, 241, 251, 0.2);
   border: none;
@@ -88,14 +90,13 @@ body {
   font-weight: 450;
 }
 
-/* This new rule creates the single box around the forecast */
+/* This rule provides the VISIBLE box ONLY for the forecast */
 .forecast-container {
   background: rgba(0, 22, 56, 0.2);
   padding: 20px;
   border-radius: 15px;
 }
 
-/* The individual day no longer needs a background */
 .forecast-day {
   display: flex;
   flex-direction: column;
